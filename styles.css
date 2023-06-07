@@ -1,0 +1,30 @@
+body {
+    background-color: grey;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    margin: auto;
+    height: 100vh;
+    width: 990px;
+    display: flex;
+    flex-direction: row;
+}
+#sidebar {
+    padding: 25px 25px;
+    background-color: lightgrey;
+    /* height: 100px; */
+    flex: 25%;
+    border-style: none dashed none none;
+    border-color: #888888;
+}
+#main-content {
+    background-color: orange;
+    width: 75%;
+    /* flex: auto; */
+}
