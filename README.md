@@ -1,3 +1,50 @@
+# attendance-system-web-front-end
+
+## What i did:
+1. mkdir "CV and Portofolio"
+2. cd "CV and Portofolio"
+3. npx create-react-app cv-portofolio-react
+4. cd cv-portofolio-react
+5. [Github website] Create new repository on Github Website (without any options): cv-portofolio-react
+6. git remote add origin https://github.com/dimasivonanggitama/cv-portofolio-react.git
+7. git pull origin main
+8. git add .
+9. git commit -m "Initial commit"
+10. git push origin main
+11. git checkout -b development
+12. npm start
+13. [Installed dependencies section]
+14. [index.js] Wrap with <ChakraProvider> on index.js
+15. [App.js] import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+16. [App.js] Wrap with (without "&emsp;"):
+    &emsp;<Router>
+    &emsp;&emsp;<Routes>
+    &emsp;&emsp;&emsp;<Route path="/" element={<PageComponentName/>} />
+    &emsp;&emsp;</Routes>
+    &emsp;<Router>
+
+## Installed dependecies
+1. npm install react-router-dom
+2. npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion
+3. npm install react-icons --save
+
+## Version code:
+• Preparation:\
+&emsp;FE-PREP = Preparation\
+&emsp;FE-ROUT = App Routes\
+&emsp;FE-READ = README.md for frontend/client side
+
+• Components:\
+&emsp;FE-IMRO = Rounded Image Profile\
+&emsp;FE-STEP = Preset Stepper/Tracking log
+
+• Sections:\
+&emsp;FE-LEFT = Left Section\
+&emsp;FE-RIGH = Right Section
+
+• Pages:\
+&emsp;FE-MAIN = Main CV-Portofolio Page
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
